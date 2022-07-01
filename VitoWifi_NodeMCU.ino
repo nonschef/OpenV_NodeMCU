@@ -26,7 +26,8 @@ int systemUpTimeDy = 0;
 //###### Konfiguration
 static const char SSID[] = "MySSID";
 static const char PASS[] = "MySSIDPass";
-static const IPAddress BROKER(192, 168, 10, 60);
+//static const IPAddress BROKER(192, 168, 10, 60);
+static const char BROKER[] = "MyMQTTBroker.local";
 static const uint16_t PORT =  1883;
 static const char CLIENTID[] = "VitoWifi";
 static const char MQTTUSER[] = "myMQTTUser";
